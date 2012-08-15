@@ -252,7 +252,7 @@ FBL.ns(function() {
          * @since 0.3a7
          */
         enableTools: function(tools) {
-        	var enabletools = [];
+        	var enabledtools = [];
             if (typeof tools == "array" ) {
                 for (var t in tools) {
                      try {
